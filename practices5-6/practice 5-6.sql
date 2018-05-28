@@ -96,12 +96,20 @@
 --from ad_student_details
 --where first_name like '%A%' and first_name like '%N%' 
 
---select course_id, course_name
+-----!!!!!!nu e corect--------------
+--select course_id, course_name, department_id, session_id
 --from ad_course_details
 --where (department_id=10 or department_id=40)
---and (session_id<>200 or session_id<>300)
+--and (session_id<>200 or  session_id<>300)
 
---select course_id, course_name
+------------corect--------------
+--select course_id, course_name, department_id, session_id
+--from ad_course_details
+--where (department_id=10 or department_id=40)and session_id<>200
+--and (department_id=10 or department_id=40)and  session_id<>300
+
+----------identic cu cea de sus---------
+--select course_id, course_name, department_id, session_id
 --from ad_course_details
 --where (department_id=10 or department_id=40)
 --and session_id not in (200, 300)
