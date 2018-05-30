@@ -40,9 +40,9 @@
 --where &column2>&value 
 
 -----lesson 7--------
---select LOWER ('SQL Course') from dual
---select upper ('SQL Course') from dual
---select initcap ('SQL Course')from dual
+--select LOWER ('SQL Course') from dual /*sql course*/
+--select upper ('SQL Course') from dual/*SQL COURSE*/
+--select initcap ('SQL Course')from dual/*Sql Course*/
 
 --select employee_id, last_name, department_id
 --from employees
