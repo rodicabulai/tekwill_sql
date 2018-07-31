@@ -1,0 +1,1 @@
+select * from ORA16.books_view;
